@@ -1,0 +1,26 @@
+{
+  "style": {
+    "title": "Display Style",
+    "type": "select",
+    "options": ["Catalogs", "Channels"],
+    "default": "Catalogs"
+  },
+  "host": {
+    "title": "Login URL",
+    "type": "string",
+    "default": "",
+    "required": true
+  },
+  "username": {
+    "title": "Username",
+    "type": "string",
+    "default": "",
+    "required": true
+  },
+  "password": {
+    "title": "Password",
+    "type": "string",
+    "default": "",
+    "required": true
+  }
+}
